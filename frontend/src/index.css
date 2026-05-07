@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #132a2e;
+  background: #f8f4e7;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: "Manrope", ui-sans-serif, system-ui;
+  background-image: radial-gradient(circle at top left, rgba(205, 234, 229, 0.95), transparent 42%),
+    linear-gradient(145deg, #fdfbf6 0%, #f4ebd0 50%, #ffffff 100%);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.panel {
+  @apply rounded-3xl border border-white/60 bg-white/80 shadow-panel backdrop-blur-sm;
+}
+
+.panel-title {
+  @apply text-lg font-semibold text-brand-ink;
+}

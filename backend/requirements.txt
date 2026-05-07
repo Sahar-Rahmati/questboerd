@@ -1,0 +1,15 @@
+Django>=5.0,<6.0
+djangorestframework>=3.15,<4.0
+djangorestframework-simplejwt>=5.3,<6.0
+drf-spectacular>=0.27,<1.0
+dj-database-url>=2.2,<3.0
+psycopg[binary]>=3.2,<4.0
+redis>=5.0,<6.0
+celery>=5.4,<6.0
+django-cors-headers>=4.4,<5.0
+whitenoise>=6.7,<7.0
+python-dotenv>=1.0,<2.0
+python-json-logger>=2.0,<3.0
+gunicorn>=22.0,<23.0
+pywebpush>=2.0,<3.0
+openai>=1.82,<2.0

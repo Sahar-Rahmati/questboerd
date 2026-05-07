@@ -1,0 +1,15 @@
+.DS_Store
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+backend/.venv/
+backend/celerybeat-schedule.db
+backend/database_dump.sql
+backend/staticfiles/
+backend/media/
+frontend/dist/
+frontend/node_modules/
+COPY_PASTE_GUIDE.md
+docs/diagrams/
